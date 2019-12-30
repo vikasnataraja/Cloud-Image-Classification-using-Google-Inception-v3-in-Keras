@@ -3,7 +3,7 @@ This repo explores the understanding of cloud imagery using Google's Inception v
 
 ## Overview - What this project is about:
 
-This project comes via [Kaggle through one of their competitions](https://www.kaggle.com/c/understanding_cloud_organization/overview). Basically, there is a dataset of cloud imagery and each cloud image has a certain number of boradly defined shapes namely Fish, Gravel, Sugar and Flower. Each image has at least one of these shapes and possible more. The task is to train the model to predict these classes using those images.
+This project comes via [Kaggle through one of their competitions](https://www.kaggle.com/c/understanding_cloud_organization/overview). The dataset is of cloud imagery and each cloud image has a certain number of broadly defined shapes namely Fish, Gravel, Sugar, and Flower. Each image has at least one of these shapes and possibly more. The task is to train the model to predict these classes using those images.
 ![The 4 classes for the cloud images](https://github.com/vikasnataraja/Cloud-Image-Classification-using-Google-Inception-v3-in-Keras/blob/master/extras/data_classes.png)
 
 ## Requirements -  What you will need to run this on your system:
