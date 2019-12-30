@@ -1,5 +1,5 @@
 # Cloud-Image-Classification-using-Google-Inception-v3-in-Keras
-This repo explores the understanding of cloud imagery using Google's Inception v3 model for segmentation and classification and written in Keras
+This repo explores the understanding of cloud imagery using Google's Inception v3 model for segmentation and classification and written in Keras.
 
 ## Overview - What this project is about:
 
@@ -17,7 +17,7 @@ This project comes via [Kaggle through one of their competitions](https://www.ka
 
 1. Clone this repo to your local system, `cd` into the folder. 
 2. Next, download the dataset zip file, extract its contents.
-3. Create another folder to save your models. I called mine `save_model`
+3. Create another folder to save your models. I called mine `save_model`.
 
 Ultimately, your folder structure should look similar to this:
 
@@ -50,7 +50,7 @@ You can use `python3 main.py --help` to view more arguments.
 ```
 
 ## Additional Resources
-(Link to my complete project report coming soon)
+(Link to my complete project report coming soon).
 
 
 
