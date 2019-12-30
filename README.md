@@ -42,19 +42,13 @@ workspace
 
 From that directory, run `main.py` using Python 3 with an argument for model directory. There are various arguments you can give to customize, here are a few examples:
 ```
-python3 main.py --model_dir './save_model
+python3 main.py --model_dir './save_model'
 
-python3 main.py --model_dir './save_model --batch_size 64
+python3 main.py --model_dir './save_model' --batch_size 64
 
-python3 main.py --model_dir './save_model --batch_size 64 --model_name 'modelname.h5'
+python3 main.py --model_dir './save_model' --batch_size 64 --model_name 'modelname.h5'
 ```
 You can use `python3 main.py --help` to view more arguments.
 
 ## Additional Resources
 (Link to my complete project report coming soon).
-
-
-
-
-
-
