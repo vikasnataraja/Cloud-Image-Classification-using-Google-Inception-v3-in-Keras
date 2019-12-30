@@ -11,6 +11,7 @@ This project comes via [Kaggle through one of their competitions](https://www.ka
 * Python 3
 * Tensorflow >=1.14 (tested on 1.14 and 2.0)
 * Keras >=2.2.4
+* Other standard libraries - Pandas, Numpy, Scikit-Learn, albumentations
 * Plenty of hard disk space ~60GB since the dataset itself is around 43GB. I'd recommend using a GPU or an online cloud service like AWS or Google Cloud.
 * Dataset - Available on Kaggle, [click here to download the zip file](https://www.kaggle.com/c/13333/download-all). Alternatively, you can download the one on my Google Bucket Storage using this command: `gsutil cp gs://vikas-cloud/understanding_cloud_organization.zip <your_local_directory>`
 
