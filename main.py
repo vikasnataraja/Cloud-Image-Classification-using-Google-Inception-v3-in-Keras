@@ -108,23 +108,3 @@ for i, (image_name, predictions) in enumerate(zip(os.listdir(args.test_dir), y_p
 pd.DataFrame(list(zip(image_names,predicted_labels)),columns=['image_name','label']).to_csv(args.output_csv)
 
 print('Saved predicted labels as {}'.format(args.output_csv))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
