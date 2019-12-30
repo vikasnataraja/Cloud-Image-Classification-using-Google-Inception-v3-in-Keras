@@ -4,6 +4,7 @@ This repo explores the understanding of cloud imagery using Google's Inception v
 ## Overview - What this project is about:
 
 This project comes via [Kaggle through one of their competitions](https://www.kaggle.com/c/understanding_cloud_organization/overview). Basically, there is a dataset of cloud imagery and each cloud image has a certain number of boradly defined shapes namely Fish, Gravel, Sugar and Flower. Each image has at least one of these shapes and possible more. The task is to train the model to predict these classes using those images.
+![The 4 classes for the cloud images](https://github.com/vikasnataraja/Cloud-Image-Classification-using-Google-Inception-v3-in-Keras/blob/master/extras/data_classes.png)
 
 ## Requirements -  What you will need to run this on your system:
 
@@ -40,14 +41,13 @@ workspace
 
 From that directory, run `main.py` using Python 3 with an argument for model directory. There are various arguments you can give to customize, here are a few examples:
 ```
-`python3 main.py --model_dir './save_model`
+python3 main.py --model_dir './save_model
 
-`python3 main.py --model_dir './save_model --batch_size 64`
+python3 main.py --model_dir './save_model --batch_size 64
 
-`python3 main.py --model_dir './save_model --batch_size 64 --model_name 'modelname.h5'`
-
-You can use `python3 main.py --help` to view more arguments.
+python3 main.py --model_dir './save_model --batch_size 64 --model_name 'modelname.h5'
 ```
+You can use `python3 main.py --help` to view more arguments.
 
 ## Additional Resources
 (Link to my complete project report coming soon).
